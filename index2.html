@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Patel Jonik - Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <style>
+    :root {
+      --primary: #20639B;
+      --accent: #FF8C42;
+      --background: #f5f7fa;
+      --glass: rgba(255,255,255, 0.6);
+      --glass-dark: rgba(32,99,155, 0.55);
+      --shadow: 0 6px 36px rgba(32,99,155,0.1);
+      --text: #222;
+      --border-radius: 20px;
+      --transition: 0.35s cubic-bezier(.36,.27,.64,.92);
+    }
+    [data-theme="dark"] {
+      --primary: #183559;
+      --accent: #FFAE8F;
+      --background: #222;
+      --glass: rgba(45,52,66,0.8);
+      --text: #f8fafc;
+    }
+    html {scroll-behavior: smooth;}
+    body {
+      background: var(--background);
+      color: var(--text);
+      margin: 0;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      min-height: 100vh;
+      transition: background var(--transition), color var(--transition);
+    }
+    .theme-toggle {
+      position: fixed;
+      top: 16px;
+      right: 16px;
+      z-index: 199;
+      background: var(--glass-dark);
+      color: var(--text);
+      border: none;
+      padding: 10px 14px;
+      border-radius: 50px;
+      font-size: 20px;
+      cursor: pointer;
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(6px);
+      transition: background var(--transition), color var(--transition);
+    }
+    nav {
+      position: sticky;
+      top: 0;
+      background: var(--glass);
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(8px);
+      border-radius: 0 0 12px 12px;
+      z-index: 99;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 6px 0;
+      margin-bottom: 18px;
+    }
+    nav a {
+      color: var(--primary);
+      text-decoration: none;
+      margin: 0 18px;
+      font-weight: 600;
+      font-size: 17px;
+      padding: 10px 0;
+      border-bottom: 2px solid transparent;
+      transition: color var(--transition), border-bottom var(--transition);
+    }
+    nav a:hover, nav a.active {
+      color: var(--accent);
+      border-bottom: 2px solid var(--accent);
+    }
+    .container {
+      max-width: 850px;
+      margin: 36px auto;
+      padding: 0 12px;
+    }
+    section {
+      margin-bottom: 46px;
+      border-radius: var(--border-radius);
+      background: var(--glass);
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(6px);
+      padding: 40px 22px 22px 22px;
+      opacity: 0;
+      transform: translateY(35px) scale(0.98);
+      transition: all 0.7s cubic-bezier(.48,.32,.24,.87);
+      will-change: opacity,transform;
+    }
+    section.visible {
+      opacity: 1;
+      transform: translateY(0) scale(1);
+    }
+    h1 { font-size: 2.6em; margin-bottom: 12px; }
+    h2.section-title {
+      font-size: 1.6em;
+      margin-top: 0;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      color: var(--primary);
+      letter-spacing: 0.5px;
+    }
+    .info-links a {
+      margin-right: 18px;
+      color: var(--primary);
+      text-decoration: none;
+      font-size: 19px;
+      font-weight: 500;
+      transition: color var(--transition);
+    }
+    .info-links a:hover { color: var(--accent);}
+    .profile-picture {
+      float: left;
+      width: 104px;
+      height: 104px;
+      border-radius: 50%;
+      margin: 0 32px 20px 0;
+      object-fit: cover;
+      box-shadow: 0 2px 16px rgba(32,99,155,0.14);
+      background: #eee;
+    }
+    .resume-link {
+      display: inline-block;
+      margin-top: 20px;
+      background: var(--accent);
+      color: #fff;
+      padding: 11px 24px;
+      border-radius: 13px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 16px;
+      letter-spacing: 0.4px;
+      transition: background var(--transition);
+    }
+    .resume-link:hover {background: var(--primary);}
+    .skills-list, .certifications-list, .interests-list {
+      display: flex; flex-wrap: wrap; gap: 13px;
+    }
+    .skills-list span, .certifications-list span, .interests-list span {
+      background: var(--primary);
+      color: #fff;
+      padding: 10px 16px;
+      border-radius: 8px;
+      font-size: 15px;
+      font-weight: 500;
+      box-shadow: 0 1px 8px rgba(32,99,155,0.08);
+      transition: background var(--transition), color var(--transition);
+    }
+    ul {
+      padding-left: 18px;
+      margin: 0;
+    }
+    .timeline ul, .education ul {list-style: none; padding: 0;}
+    .timeline li {
+      margin-bottom: 14px;
+      font-size: 16px;
+    }
+    .timeline .fa-briefcase {color: var(--accent);}
+    .contact-form {
+      display: flex;
+      flex-direction: column;
+      gap: 17px;
+      max-width: 440px;
+      background: transparent;
+      margin-top: 7px;
+    }
+    .contact-form input, .contact-form textarea {
+      padding: 12px;
+      border: 1.6px solid var(--primary);
+      border-radius: 7px;
+      font-size: 16px;
+      background: var(--glass);
+      color: var(--text);
+      transition: background var(--transition), color var(--transition), border var(--transition);
+    }
+    .contact-form button {
+      background: var(--accent);
+      color: #fff;
+      border: none;
+      padding: 13px;
+      border-radius: 9px;
+      font-weight: bold;
+      cursor: pointer;
+      font-size: 17px;
+      letter-spacing: 0.6px;
+      transition: background var(--transition);
+    }
+    .contact-form button:hover {background: var(--primary);}
+    .thanks {font-size: 18px; color: var(--accent); margin-top: 12px;}
+    @media (max-width: 650px) {
+      .container { max-width: 100%; padding: 0 4px;}
+      section { padding: 18px 8px; }
+      h1 { font-size: 2em; }
+      nav a { font-size: 15px; margin: 0 8px;}
+      .profile-picture {width: 70px; height: 70px; margin-right: 11px;}
+    }
+  </style>
+</head>
+<body>
+  <button class="theme-toggle" title="Toggle Dark/Light Mode"><i class="fas fa-lightbulb"></i></button>
+  <nav>
+    <a href="#summary" class="active"><i class="fa fa-user"></i> Summary</a>
+    <a href="#achievements"><i class="fa fa-star"></i> Achievements</a>
+    <a href="#skills"><i class="fa fa-brain"></i> Skills</a>
+    <a href="#experience"><i class="fa fa-briefcase"></i> Experience</a>
+    <a href="#education"><i class="fa fa-graduation-cap"></i> Education</a>
+    <a href="#certifications"><i class="fa fa-certificate"></i> Certifications</a>
+    <a href="#interests"><i class="fa fa-heart"></i> Interests</a>
+    <a href="#contact"><i class="fa fa-envelope"></i> Contact</a>
+  </nav>
+  <div class="container">
+    <section id="summary">
+      <img src="myphoto.jpeg" class="profile-picture" alt="Profile Picture">
+      <h1>Patel Jonik</h1>
+      <p><b>Data & Analytics Intern <i class="fa fa-chart-line"></i> | MIS Master's Student</b><br>
+      Frankfort, Kentucky, United States</p>
+      <div class="info-links">
+        <a href="mailto:pateljoniknkd@gmail.com"><i class="fa fa-envelope"></i> Email</a>
+        <a href="https://www.linkedin.com/in/patel-jonik-91006717a" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+      </div>
+      <a class="resume-link" href="resume.pdf" download><i class="fa fa-download"></i> Download Resume</a>
+      <!-- Replace 'resume.pdf' with your actual PDF file -->
+      <h2 class="section-title"><i class="fa fa-user"></i> Professional Summary</h2>
+      <p>I am an MBA student specializing in Management Information Systems at Midway University, with a strong foundation in business development and analytical problem-solving.
+        My passion lies at the intersection of business strategy and technology, leveraging expertise in market research, client relationship management, and data analytics to drive growth in dynamic industries.</p>
+    </section>
+    <section id="achievements">
+      <h2 class="section-title"><i class="fa fa-star"></i> Key Achievements</h2>
+      <ul>
+        <li><b>Market Reach:</b> Increased reach by <b>20%</b> through innovative strategies.</li>
+        <li><b>Revenue Growth:</b> Led collaboration for <b>15% revenue increase</b> and improved satisfaction.</li>
+        <li><b>Product Guidance:</b> Used market research to guide product development and client engagement.</li>
+      </ul>
+    </section>
+    <section id="skills">
+      <h2 class="section-title"><i class="fa fa-brain"></i> Top Skills & Expertise</h2>
+      <div class="skills-list">
+        <span><i class="fab fa-windows"></i> Microsoft Power BI</span>
+        <span><i class="fab fa-python"></i> Python</span>
+        <span><i class="fa fa-project-diagram"></i> Business Process Modeling</span>
+        <span><i class="fa fa-chart-bar"></i> Data Analytics</span>
+      </div>
+    </section>
+    <section id="experience" class="timeline">
+      <h2 class="section-title"><i class="fa fa-briefcase"></i> Experience Timeline</h2>
+      <ul>
+        <li>
+          <i class="fa fa-briefcase"></i> <b>Sept 2025 - Present:</b> Data Analytics Intern - KYTC (Commonwealth of Kentucky Transportation)
+        </li>
+        <li>
+          <i class="fa fa-briefcase"></i> <b>Sept 2021 - Sept 2023:</b> Business Development Executive - Jaivini Agrotech
+          <ul>
+            <li>Led business development and market expansion in India.</li>
+            <li>Built stakeholder relations (clients, suppliers, partners).</li>
+            <li>Conducted market analysis to support product and sales strategies.</li>
+            <li>Aligned cross-functional teams with client needs for sustainable growth.</li>
+            <li>Delivered winning proposals and sales pitches, surpassing targets.</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+    <section id="education" class="education">
+      <h2 class="section-title"><i class="fa fa-graduation-cap"></i> Education</h2>
+      <ul>
+        <li>
+          <i class="fa fa-university"></i> <b>Midway University</b><br>
+          Master's degree, Management Information Systems (Jan 2024 - May 2026)
+        </li>
+        <li>
+          <i class="fa fa-university"></i> <b>Hngu</b><br>
+          Bachelor of Arts, English Literature (2018 - 2021)
+        </li>
+      </ul>
+    </section>
+    <section id="certifications" class="certifications">
+      <h2 class="section-title"><i class="fa fa-certificate"></i> Certifications</h2>
+      <div class="certifications-list">
+        <span>Business Analytics with Excel</span> 
+        <span>Human Subject Research</span>
+        <span>Website UI/UX Design with ChatGPT</span>
+        <span>Business Analysis & Process Management</span>
+      </div>
+    </section>
+    <section id="interests" class="interests">
+      <h2 class="section-title"><i class="fa fa-heart"></i> Beyond the Resume: Interests</h2>
+      <div class="interests-list">
+        <span><i class="fa fa-hiking"></i> Hiking</span>
+        <span><i class="fa fa-camera"></i> Photography</span>
+        <span><i class="fa fa-headphones"></i> DJing</span>
+        <span><i class="fa fa-skating"></i> Roller Skating</span>
+      </div>
+    </section>
+    <section id="contact">
+      <h2 class="section-title"><i class="fa fa-envelope"></i> Contact Me</h2>
+      <form class="contact-form" id="cForm">
+        <input type="text" name="Name" required placeholder="Your Name">
+        <input type="email" name="Email" required placeholder="Your Email">
+        <textarea name="Message" rows="5" required placeholder="Your Message"></textarea>
+        <button type="submit">Send Message</button>
+        <span class="thanks" style="display:none;">Thanks for your message!</span>
+      </form>
+  </div>
+  <script>
+    // Theme toggle
+    const themeToggle = document.querySelector('.theme-toggle');
+    themeToggle.onclick = () => {
+      const theme = document.documentElement.getAttribute('data-theme') === 'dark' ? '' : 'dark';
+      document.documentElement.setAttribute('data-theme', theme);
+      themeToggle.innerHTML = theme ? '<i class="fas fa-moon"></i>' : '<i class="fas fa-lightbulb"></i>';
+    }
+
+    // Intersection Observer for fade-ins
+    const sections = document.querySelectorAll('section');
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) entry.target.classList.add('visible');
+      });
+    }, {threshold: 0.13});
+    sections.forEach(sec => observer.observe(sec));
+
+    // Scroll nav highlight
+    const navLinks = document.querySelectorAll('nav a');
+    window.addEventListener('scroll', () => {
+      let idx = 0;
+      sections.forEach((sec, i) => {
+        if (window.scrollY >= sec.offsetTop - 90) idx = i;
+      });
+      navLinks.forEach(l => l.classList.remove('active'));
+      navLinks[idx].classList.add('active');
+    });
+
+    // Contact form: Thank you animation (demo only)
+    document.getElementById('cForm').onsubmit = function(e){
+      e.preventDefault();
+      this.querySelector('.thanks').style.display = 'block';
+    };
+  </script>
+</body>
+</html>
