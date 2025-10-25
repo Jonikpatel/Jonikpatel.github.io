@@ -1,4 +1,4 @@
-## 👋 Hi, I am Wu.
+## 👋 Hi, I am jonik patel
 
 Your introduction ...
 
@@ -7,7 +7,7 @@ Your introduction ...
 Here is my Homepage your home page url</td>
 
 
-## 📊 Wu's GitHub
+## 📊 jonik's GitHub
 
 |Languages |Page views|Stats|
 |--------------|------------|------------|
