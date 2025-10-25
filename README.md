@@ -2,9 +2,9 @@
 
 I'm a passionate [your profession, e.g., software developer/full-stack engineer] with expertise in [your skills, e.g., web development, AI, and data science]. I love building innovative solutions and contributing to open-source projects. Currently, I'm [your current focus, e.g., exploring machine learning or working on freelance projects].
 
-- 🌍 Based in [your location, e.g., London, UK]
+- 🌍 Based in [kentucky,usa, e.g., London, UK]
 - 💼 Open to collaborations on [e.g., exciting tech projects]
-- 📧 Reach me at: [your-email@example.com](mailto:your-email@example.com)
+- 📧 Reach me at:(mailto:pateljoniknkd@gmail.com)
 - 🔗 Homepage: [your-homepage-url](https://your-homepage-url)
 
 ---
@@ -57,7 +57,7 @@ An [e.g., AI chatbot using NLP]. Features [key features].
 ### 📱 [Project Name 3](https://github.com/xinxingwu-uk/project3)
 [Description]. Mobile app for [purpose].
 
-*Check out my [repositories](https://github.com/xinxingwu-uk?tab=repositories) for more!*
+*Check out my [repositories](https://github.com/Jonikpatel?tab=repositories) for more
 
 ---
 
