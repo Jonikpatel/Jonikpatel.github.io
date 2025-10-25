@@ -1,22 +1,22 @@
-# 👋 Hi, Jonik patel
+# 👋 Hi, I am Jonikpatel
 
 I'm a passionate [your profession, e.g., software developer/full-stack engineer] with expertise in [your skills, e.g., web development, AI, and data science]. I love building innovative solutions and contributing to open-source projects. Currently, I'm [your current focus, e.g., exploring machine learning or working on freelance projects].
 
-- 🌍 Based in [kentucky,usa, e.g., London, UK]
+- 🌍 Based in [your location, e.g., London, UK]
 - 💼 Open to collaborations on [e.g., exciting tech projects]
-- 📧 Reach me at:(mailto:pateljoniknkd@gmail.com)
+- 📧 Reach me at: [your-email@example.com](mailto:your-email@example.com)
 - 🔗 Homepage: [your-homepage-url](https://your-homepage-url)
 
 ---
 
-## 📊 Wu's GitHub Stats & Insights
+## 📊 Jonikpatel's GitHub Stats & Insights
 
 <div align="center">
   <table>
     <tr>
       <td valign="top" width="33%">
         <h3>🌟 Top Languages</h3>
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=xinxingwu-uk&layout=compact&langs_count=8&theme=dark&hide_border=true" alt="Top Languages" />
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Jonikpatel&layout=compact&langs_count=8&theme=dark&hide_border=true" alt="Top Languages" />
       </td>
       <td valign="top" width="33%">
         <h3>📍 Visitor Map</h3>
@@ -26,18 +26,18 @@ I'm a passionate [your profession, e.g., software developer/full-stack engineer]
       </td>
       <td valign="top" width="33%">
         <h3>📈 GitHub Stats</h3>
-        <img src="https://github-readme-stats.vercel.app/api?username=xinxingwu-uk&count_private=true&show_icons=true&rank_icon=github&theme=dark&include_all_commits=true&hide_border=true" alt="GitHub Stats" />
+        <img src="https://github-readme-stats.vercel.app/api?username=Jonikpatel&count_private=true&show_icons=true&rank_icon=github&theme=dark&include_all_commits=true&hide_border=true" alt="GitHub Stats" />
       </td>
     </tr>
   </table>
 </div>
 
 ### 🏆 Achievements & Badges
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=xinxingwu-uk&theme=dark)](https://git.io/streak-stats)
-[![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=xinxingwu-uk&theme=darkhub&no-frame=true&no-bg=true)](https://github.com/ryo-ma/github-profile-trophy)
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Jonikpatel&theme=dark)](https://git.io/streak-stats)
+[![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=Jonikpatel&theme=darkhub&no-frame=true&no-bg=true)](https://github.com/ryo-ma/github-profile-trophy)
 
 ### 📊 Detailed Profile Summary
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=xinxingwu-uk&theme=tokyonight" alt="Profile Details" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Jonikpatel&theme=tokyonight" alt="Profile Details" />
 
 ---
 
@@ -45,19 +45,19 @@ I'm a passionate [your profession, e.g., software developer/full-stack engineer]
 
 Here are some of my standout projects:
 
-### 🌐 [Project Name 1](https://github.com/xinxingwu-uk/project1)
+### 🌐 [Project Name 1](https://github.com/Jonikpatel/project1)
 A [brief description, e.g., full-stack web app for task management]. Built with [tech stack, e.g., React, Node.js, MongoDB].
 - ⭐ Stars: [dynamic badge if possible, or static]
 - 🔗 Demo: [demo-url]
 
-### 🤖 [Project Name 2](https://github.com/xinxingwu-uk/project2)
+### 🤖 [Project Name 2](https://github.com/Jonikpatel/project2)
 An [e.g., AI chatbot using NLP]. Features [key features].
 - 📊 Metrics: [e.g., 10K+ interactions]
 
-### 📱 [Project Name 3](https://github.com/xinxingwu-uk/project3)
+### 📱 [Project Name 3](https://github.com/Jonikpatel/project3)
 [Description]. Mobile app for [purpose].
 
-*Check out my [repositories](https://github.com/Jonikpatel?tab=repositories) for more
+*Check out my [repositories](https://github.com/Jonikpatel?tab=repositories) for more!*
 
 ---
 
@@ -85,10 +85,10 @@ An [e.g., AI chatbot using NLP]. Features [key features].
 
 ### Recent Activity
 <!-- GitHub Activity Graph -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=xinxingwu-uk&theme=github-dark&hide_border=true" alt="Activity Graph" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Jonikpatel&theme=github-dark&hide_border=true" alt="Activity Graph" />
 
 ### Contribution Graph
-<img src="https://github-readme-stats.vercel.app/api/wakatime?username=xinxingwu-uk&theme=dark" alt="Wakatime Stats" /> (If you use Wakatime)
+<img src="https://github-readme-stats.vercel.app/api/wakatime?username=Jonikpatel&theme=dark" alt="Wakatime Stats" /> (If you use Wakatime)
 
 ---
 
