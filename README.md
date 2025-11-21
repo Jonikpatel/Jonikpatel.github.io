@@ -1,6 +1,6 @@
 # 👋 Hi, I am Jonikpatel
 
-I'm a passionate [your profession, e.g., software developer/full-stack engineer] with expertise in [your skills, e.g., web development, AI, and data science]. I love building innovative solutions and contributing to open-source projects. Currently, I'm [your current focus, e.g., exploring machine learning or working on freelance projects].
+I'm a passionate data/buisness scientist. with expertise in  AI,python, powerbi and data science. I love building innovative solutions and contributing to open-source projects. Currently, I'm exploring machine learning and also working on freelance projects.
 
 - 🌍 Based in [harrodsburg,ky]
 - 💼 Open to collaborations on [exciting tech projects]
@@ -45,7 +45,7 @@ I'm a passionate [your profession, e.g., software developer/full-stack engineer]
 
 Here are some of my standout projects:
 
-### 🌐 [Auto datacleaning](https://github.com/Jonikpatel/project1)
+### 🌐 [Auto datacleaning](https://github.com/Jonikpatel/autocleandata)
      ML-Powered Data Cleaning with MCAR/MAR/MNAR Analysis. Built with jypiter notebook,node,jss.
 - 🔗 Demo: [https://jonikpatel.github.io/autocleandata/]
 
@@ -74,9 +74,9 @@ An [e.g., AI chatbot using NLP]. Features [key features].
 ![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
 
 ### Learning & Interests
-- 🔬 Currently diving into [e.g., machine learning with TensorFlow]
-- 📚 Reading [e.g., "Clean Code" by Robert C. Martin]
-- 🎯 Goal: Contribute to [e.g., open-source AI projects]
+- 🔬 Currently diving into [ machine learning with TensorFlow]
+- 📚 Reading [ "Clean Code" by Robert C. Martin]
+- 🎯 Goal: Contribute to [ open-source AI projects]
 
 ---
 
