@@ -62,7 +62,7 @@ Key Features:
 
 **🛠️ Tech Stack:** `Python` `Streamlit` `Pandas` `Plotly` `NumPy`
 
-[View Live Demo](https://realtime-dashboard-kc9cswoswp9jvyyqeax8ss.streamlit.app/) 
+- [View Live Demo](https://realtime-dashboard-kc9cswoswp9jvyyqeax8ss.streamlit.app/) 
 
 ## project 3:
 ### 📱 [Project Name 3](https://github.com/Jonikpatel/project3)
@@ -99,7 +99,7 @@ Key Features:
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Jonikpatel&theme=github-dark&hide_border=true" alt="Activity Graph" />
 
 ### Contribution Graph
-<img src="https://github-readme-stats.vercel.app/api/wakatime?username=Jonikpatel&theme=dark" alt="Wakatime Stats" /> (If you use Wakatime)
+<img src="https://github-readme-stats.vercel.app/api/wakatime?username=Jonikpatel&theme=dark" alt="Wakatime Stats" />
 
 ---
 
