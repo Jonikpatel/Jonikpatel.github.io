@@ -5,7 +5,7 @@ I'm a passionate [your profession, e.g., software developer/full-stack engineer]
 - 🌍 Based in [harrodsburg,ky]
 - 💼 Open to collaborations on [exciting tech projects]
 - 📧 Reach me at: [pateljoniknkd@outlook.com](pateljoniknkd@outlook.com)
-- 🔗 Homepage: [https://jonikpatel.github.io/](https://your-homepage-url)
+- 🔗 Homepage: [https://jonikpatel.github.io/](https://jonikpatel.github.io/)
 
 ---
 
