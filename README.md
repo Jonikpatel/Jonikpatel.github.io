@@ -45,14 +45,22 @@ I'm a passionate data/buisness scientist. with expertise in  AI,python, powerbi 
 
 Here are some of my standout projects:
 
-### 🌐 [Auto datacleaning](https://github.com/Jonikpatel/autocleandata)
+### 🌐 [Auto datacleaning] (https://github.com/Jonikpatel/autocleandata)
      ML-Powered Data Cleaning with MCAR/MAR/MNAR Analysis. Built with jypiter notebook,node,jss.
 - 🔗 Demo: [https://jonikpatel.github.io/autocleandata/]
 
-### 🤖 [Project Name 2](https://github.com/Jonikpatel/project2)
-An [e.g., AI chatbot using NLP]. Features [key features].
-- 📊 Metrics: [e.g., 10K+ interactions]
+### 📊 [Live Business Insights Dashboard] (https://github.com/Jonikpatel/realtime-dashboard)
+A dynamic, interactive dashboard built to visualize business order trends and KPIs.
 
+Key Features:
+* **Real-Time Interactivity**:  Built with Streamlit to allow instant data filtering by date, region, and category.
+* **Visual Analytics:** Uses Plotly Express for interactive bar charts, line graphs, and pie charts that users can zoom and hover over.
+* **Data Processing:** Automated data cleaning and aggregation using Pandas to transform raw CSV logs into actionable insights.
+* **Key Metrics:** Tracks Total Sales, Average Order Value (AOV), and Regional Performance.
+
+**🛠️ Tech Stack:** `Python` `Streamlit` `Pandas` `Plotly` `NumPy`
+
+[View Live Demo](https://realtime-dashboard-kc9cswoswp9jvyyqeax8ss.streamlit.app/) 
 ### 📱 [Project Name 3](https://github.com/Jonikpatel/project3)
 [Description]. Mobile app for [purpose].
 
