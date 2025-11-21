@@ -4,7 +4,7 @@ I'm a passionate [your profession, e.g., software developer/full-stack engineer]
 
 - 🌍 Based in [harrodsburg,ky]
 - 💼 Open to collaborations on [exciting tech projects]
-- 📧 Reach me at: [your-email@example.com](pateljoniknkd@outlook.com)
+- 📧 Reach me at: [pateljoniknkd@outlook.com](pateljoniknkd@outlook.com)
 - 🔗 Homepage: [your-homepage-url](https://your-homepage-url)
 
 ---
