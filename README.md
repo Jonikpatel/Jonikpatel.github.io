@@ -46,7 +46,7 @@ I'm a passionate [your profession, e.g., software developer/full-stack engineer]
 Here are some of my standout projects:
 
 ### 🌐 [Auto datacleaning](https://github.com/Jonikpatel/project1)
-A [brief description,ML-Powered Data Cleaning with MCAR/MAR/MNAR Analysis]. Built with [].
+     ML-Powered Data Cleaning with MCAR/MAR/MNAR Analysis. Built with jypiter notebook,node,jss.
 - 🔗 Demo: [https://jonikpatel.github.io/autocleandata/]
 
 ### 🤖 [Project Name 2](https://github.com/Jonikpatel/project2)
