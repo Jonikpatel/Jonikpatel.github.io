@@ -45,7 +45,7 @@ I'm a passionate [your profession, e.g., software developer/full-stack engineer]
 
 Here are some of my standout projects:
 
-### 🌐 [Project Name 1](https://github.com/Jonikpatel/project1)
+### 🌐 [Auto datacleaning](https://github.com/Jonikpatel/project1)
 A [brief description, e.g., full-stack web app for task management]. Built with [tech stack, e.g., React, Node.js, MongoDB].
 - ⭐ Stars: [dynamic badge if possible, or static]
 - 🔗 Demo: [demo-url]
